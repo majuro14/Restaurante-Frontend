@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="sidebar-wrapper" style="background-color: rgba(3,3,10,0.85);margin-left: -250px;">
+            <ul class="sidebar-nav" style="height: 612px;">
+                <li class="sidebar-brand" style="margin-top: 37px;"> <a class="border-white" href="Principales/principal.html" style="height: 113px;margin-bottom: 0px;margin-top: -16px;color: rgb(255,255,255);width: 250px;font-size: 35px;margin-left: 19px;">Menu</a></li>
+                <li> <a data-bs-hover-animate="pulse" href="#" style="color: rgb(255,255,255);margin-top: 70px;"><i class="fa fa-user-o"></i>&nbsp; Mi perfil&nbsp;</a></li>
+                <li> <a data-bs-hover-animate="pulse" href="#" style="color: rgb(255,255,255);margin-top: 6px;"><i class="fa fa-list-alt"></i>&nbsp; Reportes</a></li>
+                <li> <a data-bs-hover-animate="pulse" href="#" style="color: #fcfeff;"><i class="fa fa-cog"></i>&nbsp; Ajustes</a></li>
+                <li>
+                    <div class="btn-group" style="color: #212529;background-color: rgba(33,74,128,0);"><button class="btn btn-primary text-center border-dark" type="button" style="background-color: rgba(0,123,255,0);opacity: 1;height: 32px;font-size: 12px;width: 226px;margin-right: 0px;margin-bottom: 0px;margin-left: -23px;"><i class="fa fa-star"></i>&nbsp; &nbsp;EMPRESA</button>
+                        <button
+                            class="btn btn-primary dropdown-toggle dropdown-toggle-split border-dark" data-toggle="dropdown" aria-expanded="false" type="button" style="background-color: rgba(0,123,255,0);height: 32px;"></button>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="btn-group" style="color: #212529;background-color: rgba(33,74,128,0);"><button class="btn btn-primary text-center border-dark" type="button" style="background-color: rgba(0,123,255,0);opacity: 1;height: 32px;font-size: 12px;width: 226px;margin-right: 0px;margin-bottom: 0px;margin-left: -23px;">&nbsp; &nbsp;<i class="fa fa-star"></i>&nbsp; &nbsp;Restaurante</button>
+                        <button
+                            class="btn btn-primary dropdown-toggle dropdown-toggle-split border-dark" data-toggle="dropdown" aria-expanded="false" type="button" style="background-color: rgba(0,123,255,0);height: 32px;"></button>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="page-content-wrapper">
+            <div class="container-fluid border rounded-0" style="margin-top: 0px;padding: 20px;"><a class="btn btn-link" role="button" id="menu-toggle" href="#menu-toggle" style="font-size: 33px;"><i class="fa fa-navicon" style="color: rgba(4,12,20,0.54);margin: 14px;margin-top: 0px;"></i></a><a class="navbar-brand" href="#" style="color: rgba(0,0,0,0.63);width: 350px;margin-right: 16px;padding: 10px;margin-top: 0px;height: 60px;padding-top: 10px;padding-bottom: 15px;padding-left: 10px;">Bar y Restaurante Rancho el Manantial </a>
+                <img
+                    class="float-right align-content-stretch" data-bs-hover-animate="pulse" src="assets/img/Ranho%20El%20Manantial.png" style="width: 90px;height: 75px;"></div>
+        </div>
+    </div>
+    <div class="container border rounded-0" style="height: 758px;width: 1200px;margin-top: 21px;">
+        <div class="row d-xl-flex justify-content-xl-start align-items-xl-start">
+            <div class="col">
+                <div>
+                    <h1 style="color: rgba(33,74,128,0.64);margin-top: 13px;">Productos&nbsp;</h1>
+                </div>
+            </div>
+        </div>
+        <form class="search-form">
+            <div class="input-group">
+                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-search"></i></span></div><input class="form-control" type="text" placeholder="Buscar un producto " style="width: 881px;">
+                <div class="input-group-append" style="color: #214a80;"><button class="btn btn-light" type="button" style="color: #fcfeff;background-color: #214a80;">Buscar</button></div>
+            </div>
+        </form>
+        <div class="border rounded-0 shadow-sm" style="width: 570px;height: 500px;">
+            <div><a class="btn btn-primary btn-lg" role="button" data-toggle="modal" style="margin-top: 9px;margin-left: 10px;width: 209px;height: 43px;" href="#myModal"><i class="fa fa-plus-circle"></i>&nbsp; Nuevo producto</a>
+                <div class="modal fade" role="dialog"
+                    tabindex="-1" id="myModal">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header" style="height: 60px;">
+                                <h4 style="height: 33px;width: 393px;color: rgb(23,78,133);background-color: rgba(255,255,255,0.74);font-size: 20px;margin-left: 21px;">Datos del producto</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                            <div class="modal-body"><input class="form-control-lg" type="text" style="width: 392px;height: 38px;margin-left: 21px;" placeholder="Nombre del producto">
+                                <h1 style="margin-top: 14px;color: rgb(23,78,133);font-size: 20px;background-color: rgba(255,255,255,0.68);margin-left: 20px;">Categoria</h1>
+                                <div class="dropdown"><button class="btn btn-primary dropdown-toggle text-left" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-top: 14px;width: 397px;margin-left: 23px;">&nbsp; Seleccionar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</button>
+                                    <div
+                                        class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                            </div>
+                            <h1 style="margin-top: 23px;font-size: 20px;color: rgb(23,78,133);background-color: rgba(255,255,255,0.76);margin-left: 22px;">Descripcion</h1><input type="text" style="width: 395px;height: 117px;margin-left: 19px;">
+                            <h1 style="margin-top: 12px;font-size: 20px;color: rgb(23,78,133);background-color: rgba(255,255,255,0.7);margin-left: 22px;">Precio</h1><input class="border rounded-0" type="text" style="margin-top: 5px;margin-left: 20px;">
+                            <h1 style="margin-top: 10px;font-size: 20px;color: rgb(23,78,133);margin-left: 21px;">Estado</h1>
+                            <div class="dropdown"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-top: 8px;width: 175px;margin-left: 19px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</button>
+                                <div
+                                    class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                        </div>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" data-dismiss="modal" type="button">Cancelar</button><button class="btn btn-primary" type="button">Guardar</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="table-responsive" style="margin-top: 15px;">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th style="color: rgba(20,133,238,0.83);">Producto</th>
+                    <th style="color: rgba(20,133,238,0.8);">Detalles</th>
+                    <th style="color: rgba(20,133,238,0.81);">Editar</th>
+                    <th style="color: rgba(20,133,238,0.81);">Precio</th>
+                    <th style="color: rgba(20,133,238,0.76);">Eliminar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+    <div class="border rounded-0" style="margin-top: -500px;margin-left: 584px;margin-bottom: 11px;height: 380px;width: 524px;">
+        <h1 style="color: #1472cb;margin-top: 9px;"><i class="fa fa-list" style="padding-left: 19px;background-color: #ffffff;"></i>&nbsp;Categoria</h1>
+        <div><a class="btn btn-primary btn-lg" role="button" data-toggle="modal" style="margin-left: 98px;margin-top: 19px;width: 272px;height: 46px;" href="#myModal"><i class="fa fa-plus-square"></i>&nbsp; Añadir nueva categoria</a>
+            <div class="modal fade"
+                role="dialog" tabindex="-1" id="myModal">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header" style="height: 60px;">
+                            <h4 style="height: 33px;width: 393px;color: rgb(23,78,133);background-color: rgba(255,255,255,0.74);font-size: 20px;margin-left: 21px;">Datos del producto</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                        <div class="modal-body"><input class="form-control-lg" type="text" style="width: 392px;height: 38px;margin-left: 21px;" placeholder="Nombre del producto">
+                            <h1 style="margin-top: 14px;color: rgb(23,78,133);font-size: 20px;background-color: rgba(255,255,255,0.68);margin-left: 20px;">Categoria</h1>
+                            <div class="dropdown"><button class="btn btn-primary dropdown-toggle text-left" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-top: 14px;width: 397px;margin-left: 23px;">&nbsp; Seleccionar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</button>
+                                <div
+                                    class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                        </div>
+                        <h1 style="margin-top: 23px;font-size: 20px;color: rgb(23,78,133);background-color: rgba(255,255,255,0.76);margin-left: 22px;">Descripcion</h1><input type="text" style="width: 395px;height: 117px;margin-left: 19px;"></div>
+                    <div class="modal-footer"><button class="btn btn-light" data-dismiss="modal" type="button">Cancelar</button><button class="btn btn-primary" type="button">Guardar</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul style="margin-top: 15px;">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
